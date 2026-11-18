@@ -14,6 +14,11 @@
     line-height: var(--interlineado-texto);
   }
 
+  // Contenido principal: añade espacio vertical para separarlo de la cabecera y el pie.
+  main {
+    padding-block: var(--espacio-l);
+  }
+
   h1,
   h2,
   h3 {
