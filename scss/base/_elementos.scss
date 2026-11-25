@@ -124,7 +124,8 @@
   }
 
   input:not(:where([type="radio"], [type="checkbox"])),
-  select {
+  select,
+  textarea {
     @include objetivo-tactil;
 
     inline-size: 100%;
